@@ -9,6 +9,9 @@ import "./App.css";
 // import the PostsPage and SearchBar and add them to the App
 import PostsPage from "./components/PostsContainer/PostsPage";
 import SearchBar from "./components/SearchBar/SearchBarContainer";
+import { dom } from "@fortawesome/fontawesome-svg-core";
+
+dom.watch();
 
 const App = () => {
 
